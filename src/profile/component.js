@@ -23,6 +23,10 @@ Profile.propTypes = {
     fullName :PropTypes.string ,
     bio:PropTypes.string ,
     pic:PropTypes.string}
+ Profile.defaultProps = {
+    fullName :"notfound" ,
+    bio:"notfound" ,
+    pic:"notfound"}
 
 
  
